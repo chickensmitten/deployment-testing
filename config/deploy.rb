@@ -1,6 +1,3 @@
-# config valid only for current version of Capistrano
-lock '3.4.0'
-
 set :application, 'blog'
 set :deploy_user, 'deploy'
 
