@@ -31,10 +31,10 @@ gem 'unicorn'
 
 # Use Capistrano for deployment
 group :development do
-  gem 'capistrano'
-  gem 'capistrano-rails'
+  gem 'capistrano', '~> 3.2.1'
+  gem 'capistrano-rails', '~> 1.1.0'
   gem 'capistrano-bundler'
-  gem 'capistrano-rbenv'
+  gem 'capistrano-rbenv', "~> 2.0"
   gem 'capistrano-cookbook', require: false
 end
 
