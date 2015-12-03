@@ -29,6 +29,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 gem 'unicorn'
 
+gem 'grape'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'grape-active_model_serializers'
+
+
 # Use Capistrano for deployment
 group :development do
   gem 'capistrano', '~> 3.2.1'
